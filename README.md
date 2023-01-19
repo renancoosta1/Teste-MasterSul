@@ -19,3 +19,4 @@ Para executar o projeto, é necessário o seguinte passo:
 - Mui Material
 - Json-Server
 - Axios
+- Tailwind CSS
