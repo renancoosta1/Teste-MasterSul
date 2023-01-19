@@ -9,7 +9,7 @@ Para executar o projeto, é necessário o seguinte passo:
 ## Execução do projeto
 
 - para executar o projeto (front-end) , na pasta raiz digite -> npm run dev
-- para executar a camada de api do projeto, execute o comando -> json-server --watch data.json --port 3001 <- na pasta "backend" (/src/backend)
+- para executar a camada de api do projeto, execute o comando -> npm run server
 
 ## O que foi implementado?
 
