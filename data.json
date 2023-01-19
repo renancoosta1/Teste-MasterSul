@@ -1,19 +1,142 @@
 {
-  "posts": [
+  "paymentType": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "id": "680df3f5-c5bf-48ae-bda0-5b667fd89197",
+      "name": "Água"
+    },
+    {
+      "id": "a27c86ce-d99a-4f4f-8cbb-37302754734e",
+      "name": "Luz"
+    },
+    {
+      "id": "a7abb068-5ba0-4ec0-80e5-415219416c4a",
+      "name": "Internet"
     }
   ],
-  "comments": [
+  "user": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": "15744592-dd25-49bf-b117-f9c6098a4cf0",
+      "name": "Alberto Quintero"
+    },
+    {
+      "id": "1692e359-02a1-4a93-ac73-abca70251935",
+      "name": "Alicia Cardin"
+    },
+    {
+      "id": "187b1c0c-887f-41e2-a5de-00231191a468",
+      "name": "Amandio Igrejas"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "payments": [
+    {
+      "id": "09194903-aafb-402e-8e5f-305bece66fbb",
+      "paymentId": "680df3f5-c5bf-48ae-bda0-5b667fd89197",
+      "userId": "15744592-dd25-49bf-b117-f9c6098a4cf0",
+      "value": 322
+    },
+    {
+      "id": "0d5eca36-1696-42f4-adf1-840c10028abd",
+      "paymentId": "680df3f5-c5bf-48ae-bda0-5b667fd89197",
+      "userId": "15744592-dd25-49bf-b117-f9c6098a4cf0",
+      "value": 500
+    },
+    {
+      "id": "1090e9a2-16a3-432a-ad3f-b4d6e1ff1dd0",
+      "paymentId": "a27c86ce-d99a-4f4f-8cbb-37302754734e",
+      "userId": "15744592-dd25-49bf-b117-f9c6098a4cf0",
+      "value": 150
+    },
+    {
+      "id": "1090e9a2-16z5-432a-ad3f-b4d6e1ff1dd0",
+      "paymentId": "a27c86ce-d99a-4f4f-8cbb-37302754734e",
+      "userId": "15744592-dd25-49bf-b117-f9c6098a4cf0",
+      "value": 133
+    },
+    {
+      "id": "1195t9a2-16a3-432a-ad3f-b4d6e1ff1dd0",
+      "paymentId": "a7abb068-5ba0-4ec0-80e5-415219416c4a",
+      "userId": "15744592-dd25-49bf-b117-f9c6098a4cf0",
+      "value": 79
+    },
+    {
+      "id": "1090h5s2-16z5-432a-ad3f-b4d6e1ff1dd0",
+      "paymentId": "a7abb068-5ba0-4ec0-80e5-415219416c4a",
+      "userId": "15744592-dd25-49bf-b117-f9c6098a4cf0",
+      "value": 119
+    },
+
+    {
+      "id": "1195t9a2-16a3-432a-ad3f-b4d6e1ff1dd4",
+      "paymentId": "a7abb068-5ba0-4ec0-80e5-415219416c4a",
+      "userId": "1692e359-02a1-4a93-ac73-abca70251935",
+      "value": 188
+    },
+    {
+      "id": "1090h5s2-16z5-432a-ad3f-b4d6e1ff1dd7",
+      "paymentId": "a7abb068-5ba0-4ec0-80e5-415219416c4a",
+      "userId": "1692e359-02a1-4a93-ac73-abca70251935",
+      "value": 190
+    },
+    {
+      "id": "1195t9a2-16a3-432a-ad3f-b4d6e1ff1zz4",
+      "paymentId": "a27c86ce-d99a-4f4f-8cbb-37302754734e",
+      "userId": "1692e359-02a1-4a93-ac73-abca70251935",
+      "value": 143
+    },
+    {
+      "id": "1090h5s2-16z5-432a-ad3f-b4d6e1xx1dd7",
+      "paymentId": "a27c86ce-d99a-4f4f-8cbb-37302754734e",
+      "userId": "1692e359-02a1-4a93-ac73-abca70251935",
+      "value": 134
+    },
+    {
+      "id": "1195t9a2-16h3-432a-ad3f-b4d6e1ff1zz4",
+      "paymentId": "680df3f5-c5bf-48ae-bda0-5b667fd89197",
+      "userId": "1692e359-02a1-4a93-ac73-abca70251935",
+      "value": 334
+    },
+    {
+      "id": "1090h5s2-16z5-524h-ad3f-b4d6e1xx1dd7",
+      "paymentId": "680df3f5-c5bf-48ae-bda0-5b667fd89197",
+      "userId": "1692e359-02a1-4a93-ac73-abca70251935",
+      "value": 339
+    },
+
+    {
+      "id": "1195t9a2-16a3-432a-ad3f-a4t6e1ff1dd4",
+      "paymentId": "a7abb068-5ba0-4ec0-80e5-415219416c4a",
+      "userId": "187b1c0c-887f-41e2-a5de-00231191a468",
+      "value": 177
+    },
+    {
+      "id": "1090h5s2-16z5-432a-ad3f-u4d7e1ff1dd7",
+      "paymentId": "a7abb068-5ba0-4ec0-80e5-415219416c4a",
+      "userId": "187b1c0c-887f-41e2-a5de-00231191a468",
+      "value": 164
+    },
+    {
+      "id": "1195t9a2-16a3-432a-ad4g-b4d6e1ff1zz4",
+      "paymentId": "a27c86ce-d99a-4f4f-8cbb-37302754734e",
+      "userId": "187b1c0c-887f-41e2-a5de-00231191a468",
+      "value": 99
+    },
+    {
+      "id": "1090h5y7-16z5-432a-ad3f-b4d6e1xx1dd7",
+      "paymentId": "a27c86ce-d99a-4f4f-8cbb-37302754734e",
+      "userId": "187b1c0c-887f-41e2-a5de-00231191a468",
+      "value": 173
+    },
+    {
+      "id": "1596t1a2-16a3-432a-ad3f-b4d6e1ff1zz4",
+      "paymentId": "680df3f5-c5bf-48ae-bda0-5b667fd89197",
+      "userId": "187b1c0c-887f-41e2-a5de-00231191a468",
+      "value": 199
+    },
+    {
+      "id": "1090h5j5-16j7-432a-ad3f-b4d6e1xx1dd7",
+      "paymentId": "680df3f5-c5bf-48ae-bda0-5b667fd89197",
+      "userId": "187b1c0c-887f-41e2-a5de-00231191a468",
+      "value": 189
+    }
+  ]
 }
